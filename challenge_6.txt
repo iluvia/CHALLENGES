@@ -1,0 +1,11 @@
+---------------------- ZADANIE 1 ------------------------------------------
+
+Funkcje Lambda w kotlinie są funkcjami bez nazwy. Są przekazywame jako wyrażenie bez
+deklaracji.
+
+---------------------- ZADANIE 2. -------------------------------------------
+
+Kiedy wyrażenie lambda ma tylko jeden parametr, możemy odwołać się do argumentu
+używając słowa kluczowego: it.
+
+

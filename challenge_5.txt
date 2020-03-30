@@ -1,0 +1,46 @@
+------------------ ZAD 1. ------------------------------------------
+
+fun main () {
+    fun removeOne(item: Int, list: List<Int>): List<Int>
+    {
+        val newList = list.toMutableList()
+        newList.remove(item)
+        print(newList)
+        return newList
+
+    }
+
+    val a = 4
+    val list1 = listOf(2, 4, 6, 3, 7, 5)
+    removeOne(a, list1)
+}
+------------------ ZAD 2. ------------------------------------------
+
+fun main () {
+    fun remove(item: Int, list: List<Int>): List<Int> {
+         val newList = list.toMutableList()
+
+        for (i in newList)
+         {
+             if(newList[i] == item) {newList.remove(newList[i])}
+         }
+        print(newList)
+   return newList
+    }
+}
+
+------------------ ZAD 3. ------------------------------------------
+
+fun main () {
+    fun reverse(array: Array<Int>): Array<Int>
+    {
+        val array1 = array.copyOf()
+        var array2: Int
+        for( i in 1..array.size) {
+         array2 = array.size + 1 - i
+            array.set(i, array1[array2])
+        }
+        return array1
+    }
+}
+

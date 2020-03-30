@@ -1,0 +1,49 @@
+// ------------------------- zad 2. ------------------------------------------
+
+   // 1. true
+   // 2. false
+   // 3. true
+   // 4. true
+   // 5. false
+
+// ------------------------- zad 3. ------------------------------------------
+
+   import kotlin.math.log2
+
+fun main(){
+   
+    // zad.3
+    var a = 8.0
+    var wynik = log2(a)
+    println(wynik)
+    
+    
+}
+
+// ------------------------- zad 4. --------------------------------------------
+
+fun main() {
+
+ var num: Int = 6;
+    var i: Int = 1
+    var j: Int = 1
+    var numRoll = 0
+    var numAll = 0
+
+    while (i < 7) {
+        j = 1
+        while (j < 7) {
+            var sum = i + j
+            if(sum == num){
+                numRoll += 1
+            }
+            numAll += 1
+            j += 1
+        }
+        i += 1
+    }
+    var resultDivision: Double = numRoll.toDouble() / numAll.toDouble()
+    println("wynik to: $resultDivision")
+}
+
+

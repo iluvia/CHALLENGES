@@ -1,0 +1,12 @@
+---------------------ZAD 1. --------------------------------------------
+
+Null Safety - jest to taki "system", który ma na celu wyeliminowanie błędów spowodowanych wartościami NULL.
+Nullable Types
+
+------------------- ZAD 4. --------------------------------------------------
+
+  var name: String? = "Bożena" //VALID
+    var age: Int = null   // INVALID
+    val distance: Float? = 26.7 // INVALID
+    var middleName: String? = null // VALID
+
